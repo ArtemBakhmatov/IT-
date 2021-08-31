@@ -321,8 +321,9 @@
 }
 
 .works {
-  height: 490px;
+  height: 500px;
   padding-top: 100px;
+  margin-bottom: 470px;
   background: -webkit-gradient(linear, left top, right top, color-stop(20.44%, #504DC2), color-stop(80.91%, #5F12D0)), #C4C4C4;
   background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
 }
@@ -407,6 +408,49 @@
   border: 1px solid #E0E0E0;
 }
 
+.projects {
+  min-height: 730px;
+  padding: 100px 0 80px 0;
+  background-color: #F6F6F8;
+}
+
+.projects__subheader {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+
+.projects__descr {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 730px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+}
+
+.projects__wrapper {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects__img {
+  width: 255px;
+}
+
+.projects__img img {
+  width: 100%;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -435,6 +479,7 @@
   }
   .works {
     padding-top: 80px;
+    margin-bottom: 1010px;
   }
   .works__wrapper {
     margin-top: 30px;
@@ -448,6 +493,19 @@
   }
   .works__band {
     margin: 75px 0;
+  }
+  .projects {
+    padding: 75px 0 150px 0;
+  }
+  .projects__wrapper {
+    margin-top: 35px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .projects__img {
+    margin-top: 35px;
   }
 }
 
@@ -520,6 +578,7 @@
     margin: 20px 50px 0 50px;
   }
   .works {
+    margin-bottom: 1036px;
     padding-top: 60px;
   }
   .works__header {
@@ -651,10 +710,20 @@
     width: 530px;
   }
   .works {
+    margin-bottom: 1570px;
     padding-top: 50px;
   }
   .works__band {
     margin: 50px 0;
+  }
+  .projects {
+    padding: 50px 0 150px 0;
+  }
+  .projects__descr {
+    width: 530px;
+  }
+  .projects__wrapper {
+    margin-top: 10px;
   }
 }
 
@@ -728,6 +797,7 @@
     margin-top: 15px;
   }
   .works {
+    margin-bottom: 1340px;
     padding-top: 40px;
   }
   .works__subheader {
@@ -754,6 +824,19 @@
   }
   .works__band {
     margin: 40px 0;
+  }
+  .projects {
+    padding: 40px 0 150px 0;
+  }
+  .projects__subheader {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .projects__descr {
+    width: 280px;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 22px;
   }
 }
 /*# sourceMappingURL=style.css.map */

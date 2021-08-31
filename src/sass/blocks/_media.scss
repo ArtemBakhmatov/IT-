@@ -28,6 +28,7 @@
     }
     .works {
         padding-top: 80px;
+        margin-bottom: 1010px;
         &__wrapper {
             margin-top: 30px;
             justify-content: space-around;
@@ -38,6 +39,17 @@
         }
         &__band {
             margin: 75px 0;
+        }
+    }
+    .projects {
+        padding: 75px 0 150px 0;
+        &__wrapper {
+            margin-top: 35px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__img {
+            margin-top: 35px;
         }
     }
 }
@@ -106,6 +118,7 @@
         }
     }
     .works {
+        margin-bottom: 1036px;
         padding-top: 60px;
         &__header {
             flex-direction: column;
@@ -223,9 +236,19 @@
         }
     }
     .works {
+        margin-bottom: 1570px;
         padding-top: 50px;
         &__band {
             margin: 50px 0;
+        }
+    }
+    .projects {
+        padding: 50px 0 150px 0;
+        &__descr {
+            width: 530px;
+        }
+        &__wrapper {
+            margin-top: 10px;
         }
     }
 }
@@ -299,6 +322,7 @@
         }
     }
     .works {
+        margin-bottom: 1340px;
         padding-top: 40px;
         &__subheader {
             width: 280px;
@@ -324,6 +348,19 @@
         }
         &__band {
             margin: 40px 0;
+        }
+    }
+    .projects {
+        padding: 40px 0 150px 0;
+        &__subheader {
+            font-size: 30px;
+            line-height: 30px;
+        }
+        &__descr {
+            width: 280px;
+            margin-top: 25px;
+            font-size: 14px;
+            line-height: 22px;
         }
     }
 }

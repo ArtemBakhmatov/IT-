@@ -1,0 +1,33 @@
+.projects {
+    min-height: 730px;
+    padding: 100px 0 80px 0;
+    background-color: #F6F6F8;
+    &__subheader {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+    &__descr {
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 730px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999999;
+    }
+    &__wrapper {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        width: 255px;
+        img {
+            width: 100%;
+        }
+    }
+}
