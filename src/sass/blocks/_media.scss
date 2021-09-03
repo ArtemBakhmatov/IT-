@@ -67,6 +67,12 @@
     .mailing {
         margin-top: 175px;
     }
+    .footer {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -162,6 +168,9 @@
     }
     .mailing {
         margin-top: 185px;
+    }
+    .footer {
+        padding: 50px 0 25px 0;
     }
 }
 
