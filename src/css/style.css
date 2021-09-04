@@ -1,3 +1,87 @@
+@-webkit-keyframes circle {
+  from {
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 20px 0 #4985FF;
+            box-shadow: 0 0 20px 0 #4985FF;
+  }
+  to {
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+}
+
+@keyframes circle {
+  from {
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 20px 0 #4985FF;
+            box-shadow: 0 0 20px 0 #4985FF;
+  }
+  to {
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+}
+
+@-webkit-keyframes circle_mini {
+  from {
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 10px 0 #4985FF inset;
+            box-shadow: 0 0 10px 0 #4985FF inset;
+  }
+  to {
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+}
+
+@keyframes circle_mini {
+  from {
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 10px 0 #4985FF inset;
+            box-shadow: 0 0 10px 0 #4985FF inset;
+  }
+  to {
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+}
+
+@-webkit-keyframes color_text {
+  from {
+    color: white;
+  }
+  50% {
+    color: #4985FF;
+  }
+  to {
+    color: white;
+  }
+}
+
+@keyframes color_text {
+  from {
+    color: white;
+  }
+  50% {
+    color: #4985FF;
+  }
+  to {
+    color: white;
+  }
+}
+
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -74,6 +158,14 @@
   line-height: 16px;
   text-align: center;
   color: #FFFFFF;
+  -webkit-animation-name: color_text;
+          animation-name: color_text;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .header .promo__subheader {
@@ -188,6 +280,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation-name: circle;
+          animation-name: circle;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .apps__img {
@@ -204,6 +304,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation-name: circle_mini;
+          animation-name: circle_mini;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .apps__text {

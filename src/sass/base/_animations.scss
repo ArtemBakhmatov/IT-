@@ -1,0 +1,35 @@
+@keyframes circle {
+    from {
+        box-shadow: 0;
+    }
+    50% {
+        box-shadow: 0 0 20px 0 #4985FF;
+    }
+    to {
+        box-shadow: 0;
+    }
+}
+
+@keyframes circle_mini {
+    from {
+        box-shadow: 0;
+    }
+    50% {
+        box-shadow: 0 0 10px 0 #4985FF inset;
+    }
+    to {
+        box-shadow: 0;
+    }
+}
+
+@keyframes color_text {
+    from {
+        color: white;
+    }
+    50% {
+        color: #4985FF;
+    }
+    to {
+        color: white;
+    }
+}

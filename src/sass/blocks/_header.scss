@@ -46,6 +46,10 @@
             line-height: 16px;
             text-align: center;
             color: #FFFFFF;
+            animation-name: color_text;
+            animation-duration: 4s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
         }
         &__subheader {
             width: 830px;
